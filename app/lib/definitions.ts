@@ -9,12 +9,14 @@ export type User = {
   password: string;
 };
 
-export type Customer = {
+export type Employee = {
   id: string;
   name: string;
   email: string;
+  start_date: string;
+  department: string;
   image_url: string;
-};
+}
 
 export type Invoice = {
   id: string;
